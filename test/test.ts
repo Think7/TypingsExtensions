@@ -1,14 +1,13 @@
 /// <reference path="../chai-http.d.ts" />
 
-import {RequestEx} from "chai-http";
+import {Request} from "chai-http";
 
-let req = new RequestEx();
+let req = new Request();
 
-RequestEx.someStatic();
-RequestEx.someStatic();
+Request.someStatic();
+Request.someStatic();
 req.someInstance();
 req.someInstanceEx();
-
 
 
 
