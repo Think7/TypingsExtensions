@@ -1,0 +1,4 @@
+{
+  "name": "chai-http",
+  "main": "chai-http.d.ts"
+}
