@@ -5,7 +5,7 @@ import {Request} from "chai-http";
 let req = new Request();
 
 Request.someStatic();
-Request.someStatic();
+Request.someStaticEx();
 req.someInstance();
 req.someInstanceEx();
 
